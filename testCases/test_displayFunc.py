@@ -1,5 +1,4 @@
 import pytest
-from selenium import webdriver
 from pageObjects.TodosPage import TodosPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
