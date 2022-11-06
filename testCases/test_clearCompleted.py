@@ -12,6 +12,7 @@ class Test_ClearCompleted_func:
     logger = LogGen.loggen()
 
     #Check the "Clear completed" is displayed if more than one item is selected
+    @pytest.mark.regression
     def test_07_clearCompleted(self, setup):
         self.logger.info("*************** Test_07_clearCompleted *****************")
         self.driver = setup
@@ -48,6 +49,7 @@ class Test_ClearCompleted_func:
             assert False
 
    # Check the "Clear completed" is NOT displayed if no item is selected
+    @pytest.mark.regression
     def test_08_clearCompleted(self, setup):
         self.logger.info("*************** Test_07_clearCompleted *****************")
         self.driver = setup

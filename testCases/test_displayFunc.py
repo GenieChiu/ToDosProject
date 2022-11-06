@@ -12,6 +12,7 @@ class Test_display_func:
     logger = LogGen.loggen()
 
     # Check the item displayed in todos list while typying the text in the input field and enter it
+    @pytest.mark.regression
     def test_01_display(self, setup):
         self.logger.info("*************** Test_01_display *****************")
         self.driver = setup
@@ -53,6 +54,7 @@ class Test_display_func:
 
 
     # Check the item is NOT displayed in todos list while typying No text in the input field and enter it
+    @pytest.mark.regression
     def test_02_display(self, setup):
         self.logger.info("*************** Test_02_display *****************")
         self.driver = setup

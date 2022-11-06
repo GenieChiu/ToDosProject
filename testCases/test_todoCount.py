@@ -12,6 +12,7 @@ class Test_todoCount_func:
     logger = LogGen.loggen()
 
     # Check the number of todo-count is displayed if more than one item is displayed on the todos list
+    @pytest.mark.regression
     def test_05_todoCount(self, setup):
         self.logger.info("*************** Test_05_todoCount *****************")
         self.driver = setup
@@ -55,6 +56,7 @@ class Test_todoCount_func:
             assert False
 
     # Check the number of the item left is NOT displayed if no item is displayed on the todos list
+    @pytest.mark.regression
     def test_06_todoCount(self, setup):
         self.logger.info("*************** Test_06_todoCount *****************")
         self.driver = setup

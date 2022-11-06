@@ -11,6 +11,7 @@ class Test_edit_func:
     logger = LogGen.loggen()
 
     # Check the item is editable by double-clicking on the text field
+    @pytest.mark.regression
     def test_03_edit(self, setup):
         self.logger.info("*************** Test_03_edit *****************")
         self.driver = setup
@@ -41,6 +42,7 @@ class Test_edit_func:
 
 
     # Check the item is NOT editable by clicking on the wrong field
+    @pytest.mark.regression
     def test_04_edit(self, setup):
         self.logger.info("*************** Test_04_edit *****************")
         self.driver = setup
