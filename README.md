@@ -14,12 +14,12 @@ As per the Page Object Model, I have maintained a class in the web page with the
 , I passed test data and handle data-driven testing by using “ExcelUtils.py” in utilities folder</p>
 
 <p>Test environment : </p>
-![test framework](images/test framework.png)
 
+![test framework](https://user-images.githubusercontent.com/117443409/200194892-d6824502-1d67-4b4a-a75e-882479738cc2.png)
 
 <h2 align="center">Test Scenarios</h2>
-![test scenrio](images/test scenrio.png)
+![test scenrio](https://user-images.githubusercontent.com/117443409/200194903-1b41aa5d-c607-45a4-8255-e2400686f996.png)
 
 
 <h2 align="center">Test HTML Report</h2>
-![test report](../images/test report.png)
+![test report](https://user-images.githubusercontent.com/117443409/200194899-942c1620-103f-4bac-8836-5832c7f4f1cd.png)
